@@ -6,7 +6,7 @@ import plotly.express as px
 @st.cache_data
 def load_data():
     # Modify the path to your dataset
-    return pd.read_csv('path_to_your_cleaned_data.csv')
+    return pd.read_csv('EDA-Final-Project/data')
 
 data = load_data()
 
