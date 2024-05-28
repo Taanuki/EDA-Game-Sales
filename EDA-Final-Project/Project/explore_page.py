@@ -6,7 +6,7 @@ import plotly.express as px
 @st.cache_data
 def load_data():
     # Modify the path to your dataset
-    return pd.read_csv('EDA-Final-Project/data')
+    return pd.read_csv('https://github.com/Taanuki/EDA-Game-Sales/tree/main/EDA-Final-Project/data')
 
 data = load_data()
 
